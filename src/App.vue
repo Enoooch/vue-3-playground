@@ -1,16 +1,28 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+<template lang="pug">
+img(alt="Vue logo" src="./assets/logo.png")
+LifeCycle
+CompositionAPI(msg="Hello Vue 3 + TypeScript + Vite" title="" @login="login")
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import LifeCycle from './components/LifeCycle.vue'
+import CompositionAPI from './components/CompositionAPI.vue'
 
 export default defineComponent({
   name: 'App',
+  setup () {
+    const login = (res: any) => {
+      console.log(res)
+    }
+
+    return {
+      login
+    }
+  },
   components: {
-    HelloWorld
+    LifeCycle,
+    CompositionAPI
   }
 })
 </script>
