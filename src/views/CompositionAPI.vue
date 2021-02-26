@@ -2,7 +2,6 @@
 h1 {{ msg }}
 button(@click="count++") count is: {{ count }}
 button(@click="testFunction") testFunction
-button(@click="toParent") toParent
 
 h2 {{ state.title }}
 input(type='text' v-model='state.lowerCaseUsername' placeholder='Username')
