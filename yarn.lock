@@ -173,6 +173,11 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
+"@oruga-ui/oruga-next@^0.3.5":
+  version "0.3.5"
+  resolved "https://registry.npmjs.org/@oruga-ui/oruga-next/-/oruga-next-0.3.5.tgz#4dc9c1e047f37e9aff969fe27c47fd9a11183835"
+  integrity sha512-eUXC7K2k/hmdHsaALAstigcykKjHA3NQFb/k1hZno4B28yivNV5G5Sa162+isKIB7g6F2Lrgg33+aTu18tTb6g==
+
 "@sentry/core@5.30.0":
   version "5.30.0"
   resolved "https://registry.npm.taobao.org/@sentry/core/download/@sentry/core-5.30.0.tgz#6b203664f69e75106ee8b5a2fe1d717379b331f3"

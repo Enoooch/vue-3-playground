@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import NotFound from '/@/views/NotFound.vue';
 import Home from '/@/views/Home.vue';
+import OrugaUI from '/@/views/OrugaUI.vue';
 import LifeCycle from '/@/views/LifeCycle.vue';
 import CompositionAPI from '/@/views/CompositionAPI.vue';
 import TodoList from '/@/views/TodoList/index.vue';
@@ -14,6 +15,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/OrugaUI",
+    name: "OrugaUI",
+    component: OrugaUI,
   },
   {
     path: "/LifeCycle",

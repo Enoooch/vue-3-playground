@@ -1,6 +1,7 @@
 <template lang="pug">
 img(alt="Vue logo" src="./assets/logo.png")
 nav
+  router-link(to="/OrugaUI") OrugaUI
   router-link(to="/LifeCycle") LifeCycle
   router-link(to="/CompositionAPI") CompositionAPI
   router-link(to="/TodoList") TodoList
