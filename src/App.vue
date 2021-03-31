@@ -1,6 +1,7 @@
 <template lang="pug">
 img(alt="Vue logo" src="./assets/logo.png")
 nav
+  router-link(to="/ElementPlus") ElementPlus
   router-link(to="/PrimeVue") PrimeVue
   router-link(to="/OrugaUI") OrugaUI
   router-link(to="/LifeCycle") LifeCycle

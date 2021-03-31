@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import NotFound from '/@/views/NotFound.vue';
 import Home from '/@/views/Home.vue';
+import ElementPlus from '/@/views/ElementPlus.vue';
 import PrimeVue from '/@/views/PrimeVue.vue';
 import OrugaUI from '/@/views/OrugaUI.vue';
 import LifeCycle from '/@/views/LifeCycle.vue';
@@ -16,6 +17,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/ElementPlus",
+    name: "ElementPlus",
+    component: ElementPlus,
   },
   {
     path: "/PrimeVue",
