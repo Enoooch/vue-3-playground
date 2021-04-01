@@ -2,8 +2,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import ElementPlus from 'element-plus';
-import 'element-plus/lib/theme-chalk/index.css';
+import ElementPlus from 'element-plus'
+import 'element-plus/lib/theme-chalk/index.css'
 
 import Oruga from '@oruga-ui/oruga-next'
 import '@oruga-ui/oruga-next/dist/oruga.css'
@@ -15,6 +15,9 @@ import 'primevue/resources/themes/saga-blue/theme.css'
 import 'primevue/resources/primevue.min.css'
 import 'primeicons/primeicons.css'
 
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
+
 const app = createApp(App)
 
 app
@@ -22,6 +25,7 @@ app
   .use(Oruga)
   .use(ElementPlus)
   .use(PrimeVue, { ripple: true })
+  .use(Antd)
 
 app.component('Calendar', Calendar)
 
