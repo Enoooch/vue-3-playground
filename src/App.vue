@@ -1,5 +1,5 @@
 <template lang="pug">
-img(alt="Vue logo" src="./assets/logo.png")
+img(alt="Vue logo" src="./assets/img/logo.png")
 nav
   router-link(to="/AntDesignVue") AntDesignVue
   router-link(to="/ElementPlus") ElementPlus

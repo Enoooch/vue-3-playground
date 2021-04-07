@@ -1,23 +1,15 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-const path = require('path')
+const { resolve } = require('path')
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  server: {
-    open: true,
-    port: 3000,
-    https: false,
-    proxy: {
-
-    }
-  },
-  optimizeDeps: {
-    // include: ["moment", "echarts", "axios", "mockjs"]
-  },
   plugins: [vue()],
-  alias: {
-    '/@': path.resolve(__dirname, './src')
-  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+      '@img': resolve(__dirname, 'src/assets/img')
+    }
+  }
 })

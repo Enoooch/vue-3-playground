@@ -1,13 +1,13 @@
 import { createWebHistory, createRouter } from "vue-router";
-import NotFound from '/@/views/NotFound.vue';
-import Home from '/@/views/Home.vue';
-import AntDesignVue from '/@/views/AntDesignVue.vue';
-import ElementPlus from '/@/views/ElementPlus.vue';
-import PrimeVue from '/@/views/PrimeVue.vue';
-import OrugaUI from '/@/views/OrugaUI.vue';
-import LifeCycle from '/@/views/LifeCycle.vue';
-import CompositionAPI from '/@/views/CompositionAPI.vue';
-import TodoList from '/@/views/TodoList/index.vue';
+import NotFound from '@/views/NotFound.vue';
+import Home from '@/views/Home.vue';
+import AntDesignVue from '@/views/AntDesignVue.vue';
+import ElementPlus from '@/views/ElementPlus.vue';
+import PrimeVue from '@/views/PrimeVue.vue';
+import OrugaUI from '@/views/OrugaUI.vue';
+import LifeCycle from '@/views/LifeCycle.vue';
+import CompositionAPI from '@/views/CompositionAPI.vue';
+import TodoList from '@/views/TodoList/index.vue';
 
 const routes = [
   {

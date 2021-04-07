@@ -106,7 +106,7 @@
           >
         </div>
         <p style="position: relative">
-          <o-loading full-page :active.sync="isLoading">
+          <o-loading full-page v-model:active="isLoading">
             <o-icon icon="sync-alt" size="large" spin></o-icon>
           </o-loading>
         </p>
